@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:"Sriracha";
+    font-weight: 200;
+    
+}
+
+body{
+    background-color: #f4d04e;
+    scrollbar-width: 0;
+    height: 100%;
+    width: 100%;
+}
+.conteiner{
+    display: flex;
+    width:400px;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start; 
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow:5px 5px 2px 2px  ;
+    border: 1px solid rgba(0, 0, 0, 0.721);
+
+    
+    gap: 20px;
+
+
+}
+.conteiner .img{
+    margin-top: 20px;
+    border-radius: 10px;
+    margin: aut;
+    height: 218px;
+}
+.conteiner .botao{
+    color: rgb(0, 0, 0);
+    background-color:#f4d04e;
+    margin-left: 20px;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.2s linear;
+    
+    
+}
+.conteiner .botao:hover{
+    background-color: #ffc800;
+    color: #f8f6f6;
+    letter-spacing: 2px;
+
+}
+.conteiner .subi{
+    font-size: 14px;
+    
+    
+}
+.conteiner .titulo{
+
+}
+.conteiner .favicon{
+    height: 40px;
+}
+.favi{
+    display: flex;
+    
+    gap: 10px;
+}
+.conteiner .h3{
+    font-size: 14px;
+    margin: auto;
+    
+    
+}
+.conteiner .para{
+    color:  #6b6b6b;
+    font-size: 16px;
+}
